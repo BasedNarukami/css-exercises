@@ -56,3 +56,7 @@ a {
   justify-content: right;
   gap: 10px;
 }
+
+.footer {
+  background-color: #eeeeee
+}
