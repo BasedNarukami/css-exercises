@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -58,5 +59,12 @@ a {
 }
 
 .footer {
+  display: flex;
+  justify-content: space-between;
   background-color: #eeeeee
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
 }
