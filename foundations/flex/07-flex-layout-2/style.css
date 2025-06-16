@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -31,7 +30,9 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .card {
@@ -43,5 +44,15 @@ body {
 .content {
   display: flex;
   justify-content: flex-start;
-  align-items: stretch;
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
